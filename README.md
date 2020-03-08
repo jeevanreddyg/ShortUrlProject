@@ -6,6 +6,9 @@ The project is for URL Shortener, Custom Links & Link Management. Below are the 
 * View short links created (Logged in User Only)
 * View analytics (Need to be implemented) 
 
+# Design
+![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/highleveldesign.png)
+
 # Screenshots
 ![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/Home.png)
 
@@ -27,3 +30,17 @@ Things Todo:
 ![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/Source.png)
 
 ![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/Source-domain.png)
+
+# Environment setup
+
+* Install .net core SDK 3.1
+* Visual studio 2019 
+* Create the SQL Database **AppShortUrlContext**
+
+In Visual Studio, you can use the Package Manager Console to apply pending migrations to the database:
+
+PM> Update-Database
+
+Alternatively, you can apply pending migrations from a command prompt at your project directory:
+
+> dotnet ef database update
