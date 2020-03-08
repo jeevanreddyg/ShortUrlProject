@@ -23,3 +23,7 @@ The project is for URL Shortener, Custom Links & Link Management. Below are the 
 Things Todo:
 * IApi* interfaces 
 * Test cases
+
+![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/Source.png)
+
+![](https://github.com/jeevanreddyg/ShortUrlProject/blob/master/Screenshots/Source-domain.png)
